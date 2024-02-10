@@ -43,7 +43,7 @@ public:
             {
                 //меняем направление мяча
                 if (x_center > x + 25 && x_center < x+width - 25) moveY *= -1;
-                else moveY *= -1;
+                else moveX *= -1;
                 return 1;
             }
         }
